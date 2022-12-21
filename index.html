@@ -7,6 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moja firma</title>
 </head>
+<style>
+  table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+</style>
+
 <body>
   <header>
   <h1>Moja firma</h1>
@@ -49,7 +56,30 @@
     <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
   </video>
-
+  
+  <h2>Osnovna tablica s okvirima</h2>
+  <table style="width:100%;">
+   <thead>
+     <tr>
+       <th style="width: 40%;">Naziv 1</th>
+       <td style="width:20%">Naziv 2</td>
+       <td style="width:20%">Naziv 3</td>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <th>Celija 1 u 1. retku</th>
+       <td>Celija 2 u 1. retku</td>
+       <td>Celija 3 u 1. retku</td>
+     </tr>
+     <tr>
+       <th>Celija 3 u 2. retku</th>
+       <td>celija 4 u 2.retku</td>
+       <td>celija 5 u 3. retku</td>
+     </tr>
+   </tbody>
+  </table>
+  </body>
 <footer>
   <p style="text-align:center"><small>Moja firma © 2022</small></p>
 </footer>
